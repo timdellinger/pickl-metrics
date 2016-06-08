@@ -20,3 +20,5 @@ analytics.py -  takes the .csv file from simulateGames as input
                 prints the number of wins by Team A (the team that serves first)
                 creates a histogram of the margin of victory of Team A (margin is negative if Team A loses)
                 creates a histogram of the number of rallies per game
+                
+early results.txt - some quick and dirty early results
