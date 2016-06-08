@@ -1,0 +1,6 @@
+Some quick-and-dirty early results based on 100000 games by equally talented opponents:
+
+37% are blowouts (the losing team scored 5 points or less).
+serving first gets you what looks like 0.1% advantage... one game out of 1000
+only about 12.6% of games go above a score of 11
+number of rallies: eyeballing it, a peak at 35 rallies, most games 25-45 rallies
