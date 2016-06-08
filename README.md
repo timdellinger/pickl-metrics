@@ -21,4 +21,6 @@ analytics.py -  takes the .csv file from simulateGames as input
                 creates a histogram of the margin of victory of Team A (margin is negative if Team A loses)
                 creates a histogram of the number of rallies per game
                 
+eaxmple histograms are included here for 100,000 games, probabilities set at 0.5 (i.e. coin flip) for every rally
+                
 early results.txt - some quick and dirty early results
