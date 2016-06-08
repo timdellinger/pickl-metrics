@@ -1,5 +1,5 @@
 # pickl-metrics
-Statistical exploration of the game of pickleball (see usapa.org for a description of the game)
+Statistical exploration of the game of pickleball (see usapa.org for information on the game)
 
 Simulated games can provide insight into the relation between player skill and game score.  This will help lay the
 foundation for analyzing actual match results: estimating player skill levels, predicting the results of matches, etc.
