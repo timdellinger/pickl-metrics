@@ -25,4 +25,4 @@ Example histograms are included here for 100,000 games, with probabilities set a
                 
 *early results.txt* - some quick and dirty early results
 
-*markovTransitionMatrix.py* - Markov chain style treatment of single games.  Takes as input probabilities of Team A and Team B winning rallies.  Output is a histogram of the margins of victory of games.
+*markovTransitionMatrix.py* - Markov chain style treatment of pickleball games, using a transition matrix.  Takes as input probabilities of Team A and Team B winning rallies.  Output is a histogram of the margins of victory of games.
