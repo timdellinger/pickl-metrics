@@ -24,3 +24,5 @@ A few open questions that are tackled here:
 Example histograms are included here for 100,000 games, with probabilities set at 0.5 (i.e. coin flip) for every rally.
                 
 *early results.txt* - some quick and dirty early results
+
+*markovTransitionMatrix.py* - Markov chain style treatment of single games.  Takes as input probabilities of Team A and Team B winning rallies.  Output is a histogram of the margins of victory of games.
