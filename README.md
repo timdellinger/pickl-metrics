@@ -18,6 +18,7 @@ A few open questions that are tackled here:
 *analytics.py* -  takes the .csv file from simulateGames as input,
                 prints the number of games in which the score surpassed 11,
                 prints the number of wins by Team A (the team that serves first),
+                calculates the number of games that were a blowout (one team scores 5 or fewer points),
                 creates a histogram of the margin of victory of Team A (margin is negative if Team A loses), and
                 creates a histogram of the number of rallies per game
                 
