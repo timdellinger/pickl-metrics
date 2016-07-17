@@ -28,12 +28,12 @@ plt.style.use('ggplot')
 p_values = [0.2,0.25,0.3,0.35,0.4,0.45,0.5]
 blowoutsPer500000 = [131192,140060,147320,156429,166738,177359,189141]
 
-blowoutPercents = [i/500000 for i in blowoutsPer500000]
+blowoutPercents = [i/500000 * 100 for i in blowoutsPer500000]
 
 width = 0.03
 plt.figure()
 plt.bar(p_values,blowoutPercents, width, align='center')
-plt.xlabel('probability of the serving team willing a rally')
+plt.xlabel('probability of the serving team winning a rally')
 plt.ylabel('percent of games that are a blowout')
 plt.show()
 
