@@ -46,6 +46,12 @@ mOfVictory = df.marginOfVictory
 posMOfVictory = mOfVictory[mOfVictory > 0]
 print('\n','number of wins by team A:',posMOfVictory.count(),' wins','\n' )
 
+# how many blowouts (one team scored 5 or fewer points)?
+df['isBlowout'] = (df['teamAScore']<6) | (df['teamBScore']<6)
+print('how many times was the game a blowout (one team scores 5 or fewer points)?')
+blowoutStats = df.isBlowout.value_counts()
+print( 'it was a blowout ',blowoutStats[1],' times' )
+
 # margin of victory histogram
 plt.figure();
 df.marginOfVictory.plot.hist(bins=np.arange(-11.5,15.5,1))
