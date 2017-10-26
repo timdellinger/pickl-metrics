@@ -1,8 +1,12 @@
 # pickl-metrics
-Statistical exploration of the game of pickleball (see usapa.org for information on the game)
+Statistical exploration of the game of pickleball (see usapa.org for information on the game).
 
-Simulated games can provide insight into the relation between player skill and game score.  This will help lay the
-foundation for analyzing actual match results: estimating player skill levels, predicting the results of matches, and other fun things.  The model is essentially a Markov chain, with the transition probabilities being the probability that a team wins a rally (and thus a point) if they serve.
+Simulated games can provide insights into the relationship between players' skills and game scores.  This will help lay the
+foundation for analyzing actual match results: estimating player skill levels, predicting the results of matches, and other fun things that further our understanding of the game.
+
+The model is essentially a Markov chain, with the transition probabilities being the probability that a team wins a rally (and thus a point) if they serve.  Both game-by-game simulations, and a matrix-based approach are implemented.
+
+Additionally, some data from actual tournament play is analyzed and explored.
 
 A few open questions that are tackled here:
 - Does the structure of the game favor the team that serves first?
