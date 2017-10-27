@@ -4,7 +4,7 @@ Statistical exploration of the game of pickleball (see usapa.org for information
 Simulated games can provide insights into the relationship between players' skills and game scores.  This will help lay the
 foundation for analyzing actual match results: estimating player skill levels, predicting the results of matches, and other fun things that further our understanding of the game.
 
-The model is essentially a Markov chain, with the transition probabilities being the probability that a team wins a rally (and thus a point) if they serve.  Both game-by-game simulations, and a matrix-based approach are implemented.
+The model is essentially a Markov chain, with the transition probabilities being the probability that a team wins a rally (and thus a point) if they serve.  Both game-by-game simulations, and a matrix-based approach are implemented.  The matrix-based approach tells us the frequencies of all different potential outcomes (i.e. game scores), but gives no information about the length of games.  The game-by-game simulation simulates a single game only, but tells us the length of each game... running this many times gives a distribution of game lengths.
 
 Additionally, some data from actual tournament play is analyzed and explored.
 
